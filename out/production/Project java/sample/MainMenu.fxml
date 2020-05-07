@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="792.0" style="-fx-background-color: #CC6600;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenu">
+    <children>
+        <AnchorPane layoutX="-3.0" layoutY="107.0" prefHeight="498.0" prefWidth="798.0" style="-fx-background-color: #3d394b;">
+            <children>
+            <Button fx:id="MainMenu" layoutX="97.0" layoutY="77.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="78.0" style="-fx-background-color: #3d394c; -fx-background-radius: invizble;" text="Main" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="FAQMenu" layoutX="97.0" layoutY="223.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="78.0" style="-fx-background-color: #3d394b;" text="FAQ" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="AboutUsMenu" layoutX="97.0" layoutY="148.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="78.0" style="-fx-background-color: #3d394b;" text="About us" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font></Button>
+                <Button fx:id="ExitMenu" layoutX="97.0" layoutY="301.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="78.0" style="-fx-background-color: #3d394b #3d394b;" text="Exit" textFill="WHITE">
+                    <font>
+                        <Font name="Calibri Light" size="15.0" />
+                    </font>
+                </Button>
+            <Line endX="2.0000152587890625" endY="495.0" layoutX="186.0" layoutY="1.0" startX="2.0000152587890625" stroke="WHITE" />
+            <Line endX="-10.100013732910156" layoutX="48.0" layoutY="1.0" startX="-10.100013732910156" startY="495.79998779296875" stroke="WHITE" />
+            <Button fx:id="SubjectMenu" layoutX="278.0" layoutY="98.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="154.0" style="-fx-background-color: #637c86;" text="Choice subject" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="ContactMenu" layoutX="562.0" layoutY="98.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="154.0" style="-fx-background-color: #637c86;" text="Contact Us" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="TakeTestMenu" layoutX="278.0" layoutY="273.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="154.0" style="-fx-background-color: #637c86;" text="Take a trial test" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <ImageView fx:id="serchimage" fitHeight="35.0" fitWidth="35.0" layoutX="49.0" layoutY="227.0">
+               <image>
+                  <Image url="@assets/search-512.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="aboutusimage" fitHeight="35.0" fitWidth="35.0" layoutX="49.0" layoutY="152.0">
+               <image>
+                  <Image url="@assets/Affiliate-512.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="MainImage" fitHeight="35.0" fitWidth="35.0" layoutX="49.0" layoutY="81.0">
+               <image>
+                  <Image url="@assets/landing_page-512.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="exitimage" fitHeight="35.0" fitWidth="35.0" layoutX="49.0" layoutY="305.0">
+               <image>
+                  <Image url="@assets/2-512.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="CreaterMenu" fitHeight="71.0" fitWidth="71.0" layoutX="200.0" layoutY="98.0">
+               <image>
+                  <Image url="@assets/test_job_seeker_employee_unemployee_work-512.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="taketestimage" fitHeight="71.0" fitWidth="71.0" layoutX="200.0" layoutY="273.0">
+               <image>
+                  <Image url="@assets/checklist_job_seeker_employee_unemployee_work-512.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ContactImage" fitHeight="71.0" fitWidth="71.0" layoutX="473.0" layoutY="98.0">
+               <image>
+                  <Image url="@assets/call_job_seeker_employee_unemployee_work-128.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="SupprotMenu" layoutX="562.0" layoutY="274.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="154.0" style="-fx-background-color: #637c86;" text="Support" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <ImageView fitHeight="71.0" fitWidth="71.0" layoutX="473.0" layoutY="273.0">
+               <image>
+                  <Image url="@assets/011_150_support_chat_consulting_customer_service_help_laptop_man_dialog_employee_conference_telemarketing-512.png" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+        <Label layoutX="289.0" layoutY="-12.0" prefHeight="117.0" prefWidth="214.0" text="Menu" textFill="WHITE">
+            <font>
+                <Font name="Jokerman" size="75.0" />
+            </font>
+        </Label>
+        <Text fill="#747474" layoutX="7.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Test Center" wrappingWidth="89.39999389648438">
+            <font>
+                <Font name="Baskerville Old Face" size="13.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>

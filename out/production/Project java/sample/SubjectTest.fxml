@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="792.0" style="-fx-background-color: #CC6600;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SubjectTest">
+    <children>
+        <AnchorPane layoutY="122.0" prefHeight="478.0" prefWidth="792.0" style="-fx-background-color: #3d394b;">
+            <children>
+                <Button fx:id="BackButton" layoutX="351.0" layoutY="355.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="89.0" style="-fx-background-color: #7584dc;" text="Back" textFill="#543434">
+                    <font>
+                        <Font name="Calibri Light" size="25.0" />
+                    </font>
+                </Button>
+            <Button fx:id="MatButton" layoutX="127.0" layoutY="63.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="118.0" style="-fx-background-color: #3d394b; -fx-border-color: RED; -fx-border-radius: 10;" text="Mathematics" textFill="#ff8383">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="PhyButton" layoutX="544.0" layoutY="231.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="118.0" style="-fx-background-color: #3d394b; -fx-border-color: RED; -fx-border-radius: 10;" text="Physics" textFill="#ff8383">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="JavaButton" layoutX="336.0" layoutY="142.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="118.0" style="-fx-background-color: #3d394b; -fx-border-color: RED; -fx-border-radius: 10;" text="Java" textFill="#ff8383">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="EngButton" layoutX="544.0" layoutY="63.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="118.0" style="-fx-background-color: #3d394b; -fx-border-color: RED; -fx-border-radius: 10;" text="English" textFill="#ff8383">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="HisButton" layoutX="127.0" layoutY="231.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="118.0" style="-fx-background-color: #3d394b; -fx-border-color: RED; -fx-border-radius: 10;" text="History" textFill="#ff8383">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+        <Label layoutX="266.0" prefHeight="96.0" prefWidth="278.0" text="Project" textFill="WHITE">
+            <font>
+                <Font name="Jokerman" size="75.0" />
+            </font>
+        </Label>
+        <Text fill="#747474" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Test Center" wrappingWidth="89.60000000000014">
+            <font>
+                <Font name="Baskerville Old Face" size="16.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="792.0" style="-fx-background-color: #CC6600;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AboutUs">
+    <children>
+        <AnchorPane layoutY="122.0" prefHeight="478.0" prefWidth="792.0" style="-fx-background-color: #3d394b;">
+            <children>
+                <Label layoutX="41.0" layoutY="4.0" prefHeight="48.0" prefWidth="493.0" text="Developer: Nurullaev Olzhas,Marat Yermakhanbet" textFill="#b79696">
+                    <font>
+                        <Font name="Arial Unicode MS" size="18.0" />
+                    </font>
+                </Label>
+                <Button fx:id="BackButton" layoutX="351.0" layoutY="356.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="89.0" style="-fx-background-color: #7584dc;" text="Back" textFill="#543434">
+                    <font>
+                        <Font name="Calibri Light" size="25.0" />
+                    </font>
+                </Button>
+            <Label layoutX="41.0" layoutY="281.0" prefHeight="48.0" prefWidth="557.0" text="Partnership and development(for partnership go to contacts)" textFill="#b79696">
+               <font>
+                  <Font name="Arial Unicode MS" size="18.0" />
+               </font>
+            </Label>
+            <Text fill="#b79696" layoutX="41.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Republican state-owned enterprise &quot;Test Center &quot; of the Ministry of education and science of the Republic of Kazakhstan (hereinafter NTC) was established in 2020." wrappingWidth="709.3366394042969">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text fill="#b79696" layoutX="41.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The mission of the testing center is to provide organizational and technological support for procedures carried out within the framework of the National system for evaluating the quality of education." wrappingWidth="709.3366394042969">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Line endX="755.5" endY="-7.000030517578125" layoutX="34.0" layoutY="59.0" startX="-34.00000762939453" startY="-7.000030517578125" stroke="WHITE" />
+            <Line endX="755.5" endY="-7.000030517578125" layoutX="35.0" layoutY="288.0" startX="-34.00000762939453" startY="-7.000030517578125" stroke="WHITE" />
+            <Line endX="755.5" endY="-7.000030517578125" layoutX="34.0" layoutY="222.0" startX="-34.00000762939453" startY="-7.000030517578125" stroke="WHITE" />
+            <Line endX="755.5" endY="-7.000030517578125" layoutX="34.0" layoutY="128.0" startX="-34.00000762939453" startY="-7.000030517578125" stroke="WHITE" />
+            <Text fill="#b79696" layoutX="40.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Providing technical and methodological advice to educational organizations and scientific organizations in the field of health to develop tools for evaluating educational achievements" wrappingWidth="709.3366394042969">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            </children>
+        </AnchorPane>
+        <Label layoutX="225.0" prefHeight="107.0" prefWidth="342.0" text="About Us" textFill="WHITE">
+            <font>
+                <Font name="Jokerman" size="75.0" />
+            </font>
+        </Label>
+        <Text fill="#747474" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Test Center" wrappingWidth="89.60000000000014">
+            <font>
+                <Font name="Baskerville Old Face" size="16.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>
